@@ -5,7 +5,6 @@ Working example:
 JS:
 
 ***jQuery(document).ready(function($){
-    ```js
     
     var media = csstojsID("conn");
     
@@ -26,7 +25,6 @@ JS:
     
     media.init();
     
-    ```
 ***});
 # 
 HTML:
