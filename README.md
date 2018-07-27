@@ -1,10 +1,10 @@
-#Synchronizes css media width JS (browsers engine) -IN PROGRESS!!!
+# Synchronizes css media width JS (browsers engine) -IN PROGRESS!!!
 
 Working example:
 # 
 JS:
 ```javascript
-***jQuery(document).ready(function($){
+//jQuery(document).ready(function($){
     
     var media = csstojsID("conn");
     
@@ -25,7 +25,7 @@ JS:
     
     media.init();
     
-***});
+//});
 ```
 # 
 HTML:
