@@ -1,4 +1,4 @@
-# Synchronizes css (media conditions) and JavaScript (browsers engine) -IN PROGRESS!!!
+# Synchronizes browsers engine for css (media conditions) and JavaScript -IN PROGRESS!!!
 
 ### Working example:
 
