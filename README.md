@@ -1,6 +1,6 @@
 # Synchronizes css media width JS (browsers engine) -IN PROGRESS!!!
 
-###Working example:
+### Working example:
 
 HTML:
 ```html
