@@ -1,4 +1,4 @@
-# Synchronizes css media width JS (browsers engine) -IN PROGRESS!!!
+# Synchronizes css (media conditions) and JavaScript (browsers engine) -IN PROGRESS!!!
 
 ### Working example:
 
