@@ -30,8 +30,8 @@ jQuery(document).ready(function($){
 
 HTML:
 #
-<div id="conn"></div>
-#
+# <div id="conn"></div>
+
 CSS:
 
 #conn{
