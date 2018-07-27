@@ -33,7 +33,7 @@ CSS:
 
 JS:
 ```javascript
-//jQuery(document).ready(function($){
+//jQuery(document).ready(function($){   //-no jQuery needed, this is writen only to point to loading point
     
     var media = csstojsID("conn");
     
