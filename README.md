@@ -28,14 +28,13 @@ jQuery(document).ready(function($){
     
 });
 # 
-```html
 HTML:
-
+```html
 <div id="conn"></div>
 ```
 # 
 CSS:
-
+```css
 #conn{
     width: 1px;
     position: absolute;
@@ -56,3 +55,4 @@ CSS:
         width: 3px;
     }
 }
+```
