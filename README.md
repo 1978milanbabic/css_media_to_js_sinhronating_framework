@@ -28,11 +28,11 @@ jQuery(document).ready(function($){
     
 });
 # 
-'''html
+```html
 HTML:
 
 <div id="conn"></div>
-'''
+```
 # 
 CSS:
 
