@@ -1,5 +1,9 @@
 # Synchronizes browsers engine for css (media conditions) and JavaScript -IN PROGRESS!!!
 
+### Description:
+    Literarly creates blocking function in order to avoid nasty asynchronous effect (JS and css) of browser engine (JavaScript waits for css media condition to change instead of using its own browser "module" and functionality).
+    Applicable in many ways - from header display for different window.width-s (devices) - (drop menu vs full options display) to any problematic resizeable display effect.
+
 ### Working example:
 
 HTML:
