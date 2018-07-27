@@ -4,7 +4,7 @@ Working example:
 # 
 JS:
 
-jQuery(document).ready(function($){
+***jQuery(document).ready(function($){
     
     var media = csstojsID("conn");
     
@@ -26,7 +26,7 @@ jQuery(document).ready(function($){
     media.init();
     
     
-});
+***});
 # 
 HTML:
 ```html
