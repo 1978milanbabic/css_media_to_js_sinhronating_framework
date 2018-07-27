@@ -1,7 +1,36 @@
 # Synchronizes css media width JS (browsers engine) -IN PROGRESS!!!
 
-Working example:
-# 
+###Working example:
+
+HTML:
+```html
+<div id="conn"></div>
+```
+
+CSS:
+```css
+#conn{
+    width: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    z-index: -4;
+}
+
+@media screen and (max-width: 768px){
+    #conn{
+        width: 2px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    #conn {
+        width: 3px;
+    }
+}
+```
+
 JS:
 ```javascript
 //jQuery(document).ready(function($){
@@ -26,33 +55,4 @@ JS:
     media.init();
     
 //});
-```
-# 
-HTML:
-```html
-<div id="conn"></div>
-```
-# 
-CSS:
-```css
-#conn{
-    width: 1px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 0;
-    z-index: -4;
-}
-
-@media screen and (max-width: 768px){
-    #conn{
-        width: 2px;
-    }
-}
-
-@media screen and (max-width: 640px){
-    #conn {
-        width: 3px;
-    }
-}
 ```
