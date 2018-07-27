@@ -5,8 +5,8 @@
     of browser engine (JavaScript waits for css media condition to change instead of using its own 
     browser "module" and functionality).
     Applicable in many ways - from header display for different window.width-s (devices) 
-    - (drop menu vs full options display) 
-    to any problematic resizeable display effect.
+    - (drop menu vs full options display) to any problematic resizeable display effect.
+    This way css media conditions are synchronized with JavaScript.
 
 ### Working example:
 
