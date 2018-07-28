@@ -33,21 +33,21 @@ CSS:
 
 JS:
 ```javascript
-//jQuery(document).ready(function($){   //-no jQuery needed, this is writen only to point to loading point
+//jQuery(document).ready(function ($) {   //-no jQuery needed, this is writen only to point to loading point
     
     var media = csstojsID("conn");
     
-    media.size(1, function(){
+    media.size(1, function () {
         //custom function for size 1
         console.log("Hi from size 1");
     });
     
-    media.size(2, function(){
+    media.size(2, function () {
         //custom function for size 2
         console.log("Hi from size 2");
     });
     
-    media.size(3, function(){
+    media.size(3, function () {
         //custom function for size 3
         console.log("Hi from size 3");
     });
