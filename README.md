@@ -17,7 +17,7 @@ HTML:
 
 CSS:
 ```css
-#conn{
+#conn {
     width: 1px;
     position: absolute;
     top: 0;
@@ -26,13 +26,13 @@ CSS:
     z-index: -4;
 }
 
-@media screen and (max-width: 768px){
-    #conn{
+@media screen and (max-width: 768px) {
+    #conn {
         width: 2px;
     }
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 640px) {
     #conn {
         width: 3px;
     }
