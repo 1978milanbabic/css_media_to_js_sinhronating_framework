@@ -1,8 +1,12 @@
-/* 
- * UNDER CONSTRUCTION! - WORKS BUT NEEDS ERROR LOGS!
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Css media to javascript synchronizer
+ * Copyright 2018 Milan Babic
+ * Licensed under: SEE LICENSE IN https://github.com/1978milanbabic/css_media_to_js_synchronizer/blob/master/LICENSE
+ */
+/**
+ * Css Media to JS Synchronizer
+ * @version 1.0.0
+ * @author Milan Babic
  */
 
 (function () {
