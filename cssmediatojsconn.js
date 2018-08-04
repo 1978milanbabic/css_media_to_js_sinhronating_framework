@@ -37,7 +37,6 @@
                     }else{
                         this.already[i] = true;
                     }
-                    
                 }
             }
 
