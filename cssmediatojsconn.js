@@ -24,14 +24,17 @@
 
             if (this.already[cssSize - 1] === false) {
                 //executes user method for size (if not already executed/only if size is changed)
-                eval("this.size" + cssSize + "();");
+                this.sizes["size"+cssSize]();
                 //all "alerady size" logic to false
                 var i;
                 for (i = 0; i < this.already.length; i++) {
-                    this.already[i] = false;
+                    if (i != (cssSize - 1)){
+                        this.already[i] = false;
+                    }else{
+                        this.already[i] = true;
+                    }
+                    
                 }
-                //this size logic to true (executed)
-                this.already[cssSize - 1] = true;
             }
 
         };
@@ -46,10 +49,12 @@
     Factory.prototype.log = function () {
         console.log(this);
     };
-
+    
+    Factory.prototype.sizes = {};
+    
     Factory.prototype.size = function (n, fn) {
         //user creates methods for sizes
-        eval("Factory.prototype.size" + n + " = " + fn);
+        Factory.prototype.sizes["size"+n] = fn;
         //creates logic for size
         this.already[n - 1] = false;
     };
