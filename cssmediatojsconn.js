@@ -58,5 +58,4 @@
         this.already[n - 1] = false;
     };
 
-
 }());
