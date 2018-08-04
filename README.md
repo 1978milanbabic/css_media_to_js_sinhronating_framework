@@ -1,4 +1,4 @@
-# Synchronizes browsers engine for css (media conditions) and JavaScript
+# Synchronizes browsers engine's css (media conditions) and JavaScript
 
 ### Description:
     Literarly creates blocking function in order to avoid nasty asynchronous effect (JS and css) 
