@@ -49,10 +49,6 @@
             t.init();
         });
     }
-
-    Factory.prototype.log = function () {
-        console.log(this);
-    };
     
     Factory.prototype.sizes = {};
     
