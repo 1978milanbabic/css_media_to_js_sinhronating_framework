@@ -32,7 +32,7 @@
                 //all "alerady size" logic to false
                 var i;
                 for (i = 0; i < this.already.length; i++) {
-                    if (i != (cssSize - 1)){
+                    if (i !== (cssSize - 1)){
                         this.already[i] = false;
                     }else{
                         this.already[i] = true;
