@@ -7,7 +7,7 @@
     Applicable in many ways - from header navigation display for different window.width-s (devices) 
     - (drop menu vs full options display) to any problematic resizeable display effect.
     This way css media conditions are synchronized with JavaScript.
-    JavaScript function inside media condition triggers only once (on load or on media change)
+    JavaScript function inside media condition is triggered only once (on load or on media change)
 
 ### Working example:
 
